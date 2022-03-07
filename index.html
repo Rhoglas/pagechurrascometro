@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 23 (Churrascômetro) </title>
+    <link href="./churrascometro.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="container">
+
+
+        <div id="header">
+
+            <img src="./img/churrascologo.png" alt="logo de churrascaria" id="logo" height="140px">
+
+            <h1>O que é um churrascômetro ?</h1>
+            <p>Comprar a quantidade certa de ingredientes para o churrasco não é uma tarefa fácil. Por isso, criamos <b> uma ferramenta para ajudá-lo nas compras </b> e deixar seu churrasco ainda mais gostoso.</p>
+        </div>
+
+        <div id="main">
+            <h1 id="title">Churrascômetro</h1>
+
+            <input type="number" class='inputss' name="adultos" id="adultos" placeholder="ADULTOS">
+            <input type="number" class='inputss' name="criancas" id="criancas" placeholder="CRIANÇAS">
+            <input type="number" class='inputss' name="duracao" id="duracao" placeholder="DURAÇÃO">
+
+            <button id="calcular" onclick='calcular()'> CALCULAR </button>
+
+            <div id="resultado">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./churrascometro.js"></script>
+</body>
+
+</html>
